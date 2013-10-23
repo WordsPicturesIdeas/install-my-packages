@@ -1,0 +1,19 @@
+!https://gravatar.com/avatar/10c9de8725eeb24ff1ca9beff85ab425!
+
+install-my-packages is WPI's common set of tools to get a clean server up and running like we like it.
+
+bq. "Install My Packages"
+
+h2. Setup
+
+@install-my-packages@ should work with any recent release of CentOS
+
+h3. The automatic installer... (do you trust me?)
+
+You can install this via the command line with either `curl` or `wget`.
+
+h4. via `curl`
+
+@curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install.sh | sh@
+
+
