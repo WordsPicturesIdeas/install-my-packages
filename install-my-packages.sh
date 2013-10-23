@@ -25,7 +25,7 @@ yum install -y gcc curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel
 yum install -y ruby-rdoc ruby-devel 
 
 # Install Ruby Gems
-sudo yum install rubygems -y
+yum install rubygems -y
 
 # Install Jekyll
 gem install jekyll
@@ -36,12 +36,12 @@ yum install htop -y
 # Install Mosh
 yum install mosh
 
-echo "Done. Please configure mod-pagespeed and New relic."
-echo "run, 'sudo newrelic-install'"
-echo "run, './etc/init.d/newrelic-daemon restart'"
-
-
 # Install Less
 gem install therubyracer
 gem install less
+
+
+echo "Done. Please configure mod-pagespeed and New relic."
+echo "run, 'sudo newrelic-install'"
+echo "run, './etc/init.d/newrelic-daemon restart'"
 
