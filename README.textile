@@ -13,11 +13,11 @@ You can install this via the command line with `curl` as root.
 
 h4. via `curl`
 
-@ curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh | sh@
+@curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh | sh@
 
 The more secure option is to not blindly run any foriegn code. In that case, run:
 
-@ curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh > install-my-packages.sh @
+@curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh > install-my-packages.sh@
 
 Then audit the code and run it as you see fit.
 
