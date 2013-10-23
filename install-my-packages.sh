@@ -21,7 +21,7 @@ rpm -U mod-pagespeed-*.rpm
 rm mod-pagespeed-stable_current_x86_64.rpm
 
 # Install additional dependencies
-yum install -y gcc curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel
+yum install -y gcc gcc-c++ curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel
 yum install -y ruby-rdoc ruby-devel 
 
 # Install Ruby Gems
