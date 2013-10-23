@@ -7,8 +7,8 @@ yum install fail2ban -y
 # Install NewRelic
 rpm -Uvh http://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
 yum install newrelic-php5 -y
-newrelic-install
-etc/init.d/newrelic-daemon restart
+#newrelic-install
+#etc/init.d/newrelic-daemon restart
 
 # Install zsh
 yum install zsh -y
@@ -32,6 +32,14 @@ gem install jekyll
 
 # Install htop
 yum install htop -y
+
+# Install Mosh
+yum install mosh
+
+echo "Done. Please configure mod-pagespeed and New relic."
+echo "run, 'sudo newrelic-install'"
+echo "run, './etc/init.d/newrelic-daemon restart'"
+
 
 # Install Less
 gem install therubyracer
