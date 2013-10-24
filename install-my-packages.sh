@@ -34,7 +34,7 @@ gem install jekyll
 yum install htop -y
 
 # Install Mosh
-yum install mosh
+yum install mosh -y
 
 # Install Less
 gem install therubyracer
