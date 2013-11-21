@@ -37,9 +37,11 @@ yum install htop -y
 yum install mosh -y
 
 # Install Less
-gem install therubyracer
-gem install less
+gem install therubyracer -y
+gem install less -y
 
+# Install ImageMagick
+gem install ImageMagick -y
 
 echo "Done. Please configure mod-pagespeed and New relic."
 echo "run, 'sudo newrelic-install'"
