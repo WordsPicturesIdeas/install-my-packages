@@ -1,6 +1,6 @@
-!https://gravatar.com/avatar/10c9de8725eeb24ff1ca9beff85ab425!
+!https://avatars1.githubusercontent.com/u/1165305?s=200!
 
-@install-my-packages@ is WPI's common set of tools to get a clean server up and running like we like it.
+@install-my-packages@ is a common set of tools to get a clean server up and running like we like it.
 
 
 h2. Setup
@@ -13,14 +13,14 @@ You can install this via the command line with `curl` as root.
 
 h4. via `curl`
 
-@curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh | sh@
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages.sh | sh@
 
 The more secure option is to not blindly run any foriegn code. In that case, run:
 
-@curl -L https://github.com/WordsPicturesIdeas/install-my-packages/raw/master/install-my-packages.sh > install-my-packages.sh@
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages.sh > install-my-packages.sh@
 
 Then audit the code and run it as you see fit.
 
-Pull requests accepted.
+Pull requests welcome and accepted.
 
-WPI.
+Brian.
