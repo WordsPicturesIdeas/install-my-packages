@@ -21,6 +21,9 @@ sudo apt-get install multitail -y
 # Install Remote Desktop
 sudo apt-get install xrdp -y
 
+# Install wpagui, Rasberry Pi 3, etc.
+# sudo apt-get install wpagui
+
 # Install automatic upgrades
 # Configuration available in: /etc/apt/apt.conf.d/50unattended-upgrades
 sudo apt-get install unattended-upgrades bsd-mailx -y
