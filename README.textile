@@ -1,26 +1,26 @@
 !https://avatars1.githubusercontent.com/u/1165305?s=200!
 
-@install-my-packages@ is a common set of tools to get a clean server up and running like we like it.
+@install-my-packages@ is a common set of tools to get a new server up and running. 
+There are resources for both CentOS and Debian distributions.
 
 
 h2. Setup
 
-@install-my-packages@ should work with any recent release of CentOS
-
 h3. The automatic installer... (do you trust us?)
 
-You can install this via the command line with `curl` as root.
+You can install this via the command line with `curl.`
 
-h4. via `curl`
+CentOS:
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages-centos.sh | sh@
+or, for Debian:
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages-debian.sh | sh@
 
-@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages.sh | sh@
+The more secure option is, CentOS:
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages-centos.sh > install-my-packages.sh@
+or for Debian:
+@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages-debian.sh > install-my-packages.sh@
 
-The more secure option is to not blindly run any foriegn code. In that case, run:
+Audit the code and run it as you see fit. Please send pull requests with improvements.
 
-@curl -L https://github.com/turbobrian/install-my-packages/raw/master/install-my-packages.sh > install-my-packages.sh@
-
-Then audit the code and run it as you see fit.
 
 Pull requests welcome and accepted.
-
-Brian.
