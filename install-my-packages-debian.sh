@@ -18,6 +18,9 @@ sudo apt-get install mosh -y
 # Install Multitail
 sudo apt-get install multitail -y
 
+# Install Remote Desktop
+sudo apt-get install xrdp -y
+
 # Install automatic upgrades
 # Configuration available in: /etc/apt/apt.conf.d/50unattended-upgrades
 sudo apt-get install unattended-upgrades bsd-mailx -y
